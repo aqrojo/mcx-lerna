@@ -1,0 +1,26 @@
+{
+  "name": "@lemonade/viewer",
+  "description": "lemonade viewer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Agustin Quintanilla",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "cross-env webpack -p --config ../../webpack.config.js",
+    "clean": "rimraf dist && rimraf node_modules && rimraf package-lock.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mobx": "^5.15.7",
+    "mobx-react-lite": "^2.2.2",
+    "@aqrojo/when": "^1.0.3",
+    "@aqrojo/class-names": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
