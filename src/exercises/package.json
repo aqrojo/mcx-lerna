@@ -1,7 +1,7 @@
 {
   "name": "@lemonade/viewer",
   "description": "lemonade viewer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Agustin Quintanilla",
   "main": "dist/index.js",
